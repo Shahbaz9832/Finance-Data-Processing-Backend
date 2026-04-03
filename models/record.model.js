@@ -5,7 +5,7 @@ const recordSchema=new mongoose.Schema({
         required:true
     },
     type:{
-        type:string,
+        type:String,
         enum:["income","expense"],
         required:true   
     },
